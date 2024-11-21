@@ -1,0 +1,392 @@
+/* INÍCIO DAS CONFIGURAÇÕES GERAIS */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden; 
+
+}  
+/* FIM DAS CONFIGURAÇÕES GERAIS */
+
+/* INÍCIO DO CABEÇALHO */
+
+/* INÍCIO DA FAIXA LARANJA */
+#popcine {
+    background-color: rgb(255, 138, 0);
+    height: 92px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 64px;
+    font-style: italic;
+    color: white;
+}
+
+#popcine> a{
+    text-decoration: none;
+    color: white;
+}
+/* FIM DA FAIXA LARANJA */
+
+/* INÍCIO DA FAIXA VERMELHA */
+#link {
+    background-color: #FF0000;
+    height: 48px;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+}
+
+#link> nav> a{
+    text-decoration: none;
+    color: rgb(255, 188, 107);  
+    margin-left: 550px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* FIM DA FAIXA VERMELHA */
+
+/* INÍCIO DO ENTRAR E CADASTRAR */
+#entrar {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 1610px;
+    margin-top: -47px;
+}
+
+#entrar> p{
+    padding: 10px;
+    color: rgb(255, 138, 0);
+}
+/* FIM DO ENTRAR E CADASTRAR */
+
+/* FIM DO CABEÇALHO */
+
+/* INÍCIO DO CONTEÚDO */
+#banner {
+    margin-top: 40px;
+}
+
+/* INÍCIO DO CONTEÚDO DO HOME */
+
+.centerQuadrados{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 600px;
+    /* background-color: #FF0000; */
+}
+
+#nossaHistoria {
+    display: flex;
+    background-color: rgb(255, 138, 0);
+    height: 400px;
+    width: 400px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+#nossaHistoria:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#nossaHistoria> p {
+    color: black;
+    text-decoration: none;
+}
+
+#filmesEmCartaz {
+    display: flex;
+    background-color: rgb(255, 138, 0);
+    height: 400px;
+    width: 400px;
+    margin-left: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+#filmesEmCartaz:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+#filmesEmCartaz> p {
+    color: black;
+    text-decoration: none;
+}
+
+/* FIM DO CONTEÚDO DO HOME */
+
+/* INÍCIO DO CONTEÚDO CATÁLOGO */
+#filmes1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#filmes2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: rgb(255, 138, 0);
+    font-weight: bold;
+}
+/* FIM DO CONTEÚDO CATÁLOGO */
+
+/* INÍCIO DO CONTEÚDO FILMES */
+#capa {
+    margin-top: 60px;
+    margin-left: 160px;
+    margin-bottom: 200px;
+}
+
+#informacoes> h2{
+    color: #FF0000;
+    margin-top: -480px;
+    margin-left: 350px;
+    font-size: 34px;
+}
+
+#informacoes> p {
+    margin-left: 350px;
+    margin-right: 700px;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.classificacao{
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+#informacoes> .preco {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+/* DATA E HORA */
+.setaEsquerda {
+    position: absolute;
+    left: 1300px;
+    top: 200px;
+}
+
+.setaDireita {
+    position: absolute;
+    left: 1500px;
+    top: 200px;
+    padding: 0;
+}
+
+.setaEsquerda:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.setaDireita:hover {
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+.dia {
+    position: absolute;
+    left: 1380px;
+    top: 205px;
+    font-size: 36px;
+}
+
+#hora {
+   position: absolute;
+   margin: 20px;
+   left: 1270px;
+   top: 250px;
+}
+
+button {
+    background-color: rgb(255, 138, 0);
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+#hora> button:hover {
+    background-color: #FF0000;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* RESERVA DE ASSENTOS */
+#assentos {
+   margin-left: 585px;
+   margin-top: 130px;
+}
+
+.mapaDeAssentos {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 138, 0);
+}
+
+#botao> button {
+    margin-left: 700px;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #FF0000;
+}
+
+#botao> button:hover {
+    background-color: #FF0000;
+    color: rgb(255, 188, 107);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+/* FIM DO CONTEÚDO FILMES */
+
+/* INÍCIO DO CONTEÚDO QUEM SOMOS */
+h2 {
+    margin-left: 200px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 32px;
+     color: rgb(255, 138, 0); 
+}
+
+#nossaHistoria_QuemSomos>p, #missao>p, #visao>p, #valores>p {
+    color: white;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 260px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: normal;
+} 
+
+/* ENTRE EM CONTATO */
+fieldset {
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 750px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(255, 138, 0);
+}
+
+.contato {
+    font-size: 22px;
+    margin-left: 830px;
+    color: rgb(255, 138, 0);
+}
+
+fieldset>textarea {
+    width: 300px;
+    height: 120px;
+    margin-left: 5px;
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #FF0000;
+    background-color: rgb(14, 14, 14);
+}
+
+.botaoQuemSomos {
+    margin-left: 110px;
+    width: 100px;
+    margin-bottom: 20px;
+    color: #FF0000;
+}
+
+.botaoQuemSomos:hover {
+    background-color: #FF0000;
+    color: rgb(255, 188, 107);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+label {
+    font-size: 18px;
+    color: rgb(255, 138, 0);
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-left: 5px;
+    padding: 1px;
+    width: 300px;
+    margin-right: 5px;
+    color: white;
+    border: 1px solid #FF0000;
+    background-color: rgb(14, 14, 14);
+}
+
+/* FIM DO CONTEÚDO QUEM SOMOS */
+
+/* FIM DO CONTEÚDO */
+
+/* INÍCIO DO RODAPÉ */
+#rodape{
+    background-color: rgb(255, 138, 0);
+    height: 130px;
+}
+
+#linkInterno {
+    display: flex;
+    margin-left: 160px;
+    padding: 40px;
+}
+
+#linkInterno> nav> a{
+    text-decoration: none;
+    color: black;
+}
+
+#linkExterno> nav {
+    display: flex;
+    margin-left: 1300px;
+    margin-top: -75px;
+    gap: 15px;
+}
+
+.direitos{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    
+}
+/* FIM DO RODAPÉ */
